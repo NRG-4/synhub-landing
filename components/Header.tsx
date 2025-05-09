@@ -37,24 +37,17 @@ export default function Header(){
                             </NavigationMenuLink>
                         </NavigationMenuItem>
                         <NavigationMenuItem>
-
-                            <NavigationMenuLink href={`/`} className={navigationMenuTriggerStyle()}>
-                                About Us
-                            </NavigationMenuLink>
-
-                        </NavigationMenuItem>
-                        <NavigationMenuItem>
-                            <NavigationMenuLink href={`/`} className={navigationMenuTriggerStyle()}>
+                            <NavigationMenuLink href={`/#mission`} className={navigationMenuTriggerStyle()}>
                                 Mision & Vision
                             </NavigationMenuLink>
                         </NavigationMenuItem>
                         <NavigationMenuItem>
-                            <NavigationMenuLink href={`/`} className={navigationMenuTriggerStyle()}>
+                            <NavigationMenuLink href={`/#features`} className={navigationMenuTriggerStyle()}>
                                 Features
                             </NavigationMenuLink>
                         </NavigationMenuItem>
                         <NavigationMenuItem>
-                            <NavigationMenuLink href={`/`} className={navigationMenuTriggerStyle()}>
+                            <NavigationMenuLink href={`/#team`} className={navigationMenuTriggerStyle()}>
                                 NRG-4 Team
                             </NavigationMenuLink>
                         </NavigationMenuItem>
