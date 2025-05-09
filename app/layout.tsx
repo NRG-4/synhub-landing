@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import {ThemeProvider} from "next-themes";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,12 +32,16 @@ export default function RootLayout({
       >
       <ThemeProvider
           attribute="class"
-          defaultTheme="light"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
       >
-          <div className={`grid min-h-dvh grid-cols-[auto 1fr auto] w-full`}>
-              {children}
+          <div className={`grid min-h-dvh `} style={{ gridTemplateRows : "auto 1fr auto"}}>
+              <Header/>
+              <main>
+                  {children}
+              </main>
+              <Footer/>
           </div>
       </ThemeProvider>
       </body>
