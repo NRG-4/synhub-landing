@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function CallToContact(){
     return(
-        <section className={`py-12 md:py-20`} id={`#contact`}>
+        <section className={`py-12 md:py-20`} id={`contact`}>
             <div className={`container-x mx-auto space-y-6`}>
 
                 <div className="max-w-4xl mx-auto text-center">
