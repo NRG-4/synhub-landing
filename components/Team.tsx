@@ -41,7 +41,7 @@ const team = [
 
 export default function Team(){
     return(
-        <section className={`py-12 md:py-20`} id={`#team`}>
+        <section className={`py-12 md:py-20`} id={`team`}>
             <div className={`container-x mx-auto space-y-6`}>
                 <div className={`text-center`}>
                     <h1 className={`text-3xl md:text-4xl font-bold mb-6`}>
