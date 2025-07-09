@@ -29,6 +29,16 @@ export default function VideosSection() {
                             allowFullScreen
                         ></iframe>
                     </div>
+                    <div className="aspect-video">
+                        <iframe
+                            className="w-full h-full rounded-lg"
+                            src="https://www.youtube.com/embed/KN1QQ9w2WaI"
+                            title="YouTube video player 2"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
                 </div>
             </div>
         </section>
